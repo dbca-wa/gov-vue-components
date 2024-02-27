@@ -4,13 +4,15 @@ module.exports = {
     themeConfig: {
         nav: [
             { text: 'Home', link: '/' },
-        ],    
+        ],
         sidebar: [
             {
                 text: 'Components',
                 collapsable: false,
                 items: [
-                    { text: 'Status Panel', link: '/components/StatusPanel.md'},
+                    { text: 'Status Panel', link: '/components/StatusPanel.md' },
+                    { text: 'Bootstrap Alert', link: '/components/BootstrapAlert.md' },
+                    { text: 'Error Renderer', link: '/components/ErrorRenderer.md' },
                 ]
             }
         ]
