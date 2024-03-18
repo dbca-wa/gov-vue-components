@@ -14,7 +14,7 @@ To add a vue3 component to this library:
 07. Create a markdown file in the docs/components folder to document how your component works
 08. Add a link to your markdown file in the docs/.vitepress/config.js file
 09. Run 'npm run docs:dev' command to preview your documentation locally
-10. Once you are happy with everything, run 'npm run docs:build' - This will client and server bundles and render pages for the docs
+10. Once you are happy with everything, run 'npm run docs:build' - This will build the client and server bundles and render pages for the docs
 11. Run 'npm run build' - This will generate a dist folder and the library files (.js, .mjs /assets/.css) or overwrite them if they are already there
 12. Increment the version number in the package.json file
 13. Do a Pull Request for the new version
@@ -26,7 +26,7 @@ Maintenance:
 02. Run 'npm outdated' to see if anything needs updating
 03. Modify the package.json as required to update the version numbers
 04. Run 'npm run build'
-05. Increment the version number in the package.json file
+05. Increment the gov-vue3-components version number in the package.json file
 06. Do a Pull Request for the new version
 07. Once the PR is merged, follow the 'To publish to npm' instructions below to publish the new version to npm.
 
